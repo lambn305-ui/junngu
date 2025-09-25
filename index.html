@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang web đầu tiên</title>
+</head>
+<body>
+    <h1>Xin chào! 👋</h1>
+    <p>Đây là trang web về Jun.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang web đầu tiên</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>📷 Album Ảnh của Tôi</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap; /* tự xuống hàng khi hết chỗ */
+            justify-content: center;
+            gap: 20px; /* khoảng cách giữa các ảnh */
+            margin-top: 30px;
+        }
+        .gallery img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>📷 Jun ngu
+    </h1>
+    <p>Đây là một số ảnh mà tôi yêu thích!</p>
+
+    <div class="gallery">
+        <img src="c:\Users\MSII\OneDrive\Ảnh\z7015299448745_73f42aee09bccc98865917f87c9e7650.jpg" alt="Ảnh 1">
+        <img src="c:\Users\MSII\OneDrive\Ảnh\z7049248816432_fa01f54f23d5a237fd8dd7ea2351bf08.jpg" alt="Ảnh 2">
+        <img src="c:\Users\MSII\OneDrive\Ảnh\z7049248810038_94528aeddccd2f4eae3087198293ffee.jpg" alt="Ảnh 3">
+        <img src="c:\Users\MSII\OneDrive\Ảnh\z7049248793265_277699235562a04ee0f3189c2a18eed0.jpg" alt="Ảnh 4">
+        <img src="c:\Users\MSII\OneDrive\Ảnh\z7015294284978_2956c0612e2cf847f6fea309d95a3013.jpg" alt="Ảnh 5">
+    </div>
+</body>
+</html>
